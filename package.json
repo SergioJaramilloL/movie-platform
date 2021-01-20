@@ -1,0 +1,19 @@
+{
+  "name": "movie_platform_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": "https://github.com/SergioJaramilloL/movie-platform-backend.git",
+  "author": "Sergio Jaramillo <sergiojaramilloluna@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
